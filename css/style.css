@@ -160,28 +160,6 @@ body {
     transform: translateY(-2px);
 }
 
-.btn-resume {
-    padding: 12px 24px;
-    border: none;
-    border-radius: 6px;
-    font-family: 'JetBrains Mono', monospace;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    background: var(--accent-secondary);
-    color: white;
-}
-
-.btn-resume:hover {
-    background: #0da271;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(16, 185, 129, 0.3);
-}
-
 /* Анимации */
 @keyframes typing {
     from { width: 0 }
